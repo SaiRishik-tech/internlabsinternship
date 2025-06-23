@@ -1,0 +1,57 @@
+# Open Ports 
+
+Below is a list of open ports found in the scan along with their common use cases and risk levels.
+
+---
+
+## Common Open Ports
+
+###  Port 22 (SSH)
+- **Used For**: Secure remote access.
+- **Risk**: Medium. Brute-force attacks if weak passwords or outdated versions.
+- **Advice**: Use strong credentials and key-based auth.
+
+---
+
+###  Port 53 (DNS)
+- **Used For**: Resolving domain names.
+- **Risk**: Low to Medium. Can be used for DNS amplification attacks.
+- **Advice**: Block public access unless running an authoritative DNS server.
+
+---
+
+### Port 80 (HTTP)
+- **Used For**: Web server (Router admin page).
+- **Risk**: High. Accessible router interfaces can be attacked.
+- **Advice**: Change default credentials; disable remote access.
+
+---
+
+###  Port 1900 (UPnP)
+- **Used For**: Device discovery in LAN.
+- **Risk**: High. Often exploited for DDoS amplification.
+- **Advice**: Disable UPnP if not needed.
+
+---
+
+###  Port 135, 139, 445 (SMB / NetBIOS)
+- **Used For**: Windows file sharing and RPC.
+- **Risk**: Very High. Targeted by malware like WannaCry.
+- **Advice**: Block these ports on public networks; patch regularly.
+
+---
+
+###  Port 8090
+- **Used For**: Custom web applications.
+- **Risk**: Unknown — depends on the application.
+- **Advice**: Verify if the service is needed; keep it updated.
+
+---
+
+### Port 49152, 62078
+- **Used For**: Dynamic ports (iTunes sync, iOS pairing).
+- **Risk**: Low. Typically used internally.
+- **Advice**: Keep behind NAT/firewall.
+
+---
+
