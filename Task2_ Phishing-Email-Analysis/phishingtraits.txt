@@ -1,0 +1,7 @@
+Phishing Indicator	     Details from Screenshot
+Sender Email	             TrackingUpdates@emails-track.com → suspicious, not an official FedEx domain
+Generic Greeting	     "Hi, Demo" → no personalization, looks like a mass message
+Urgency/Threat Language     “If we do not receive a response, the package will be returned to sender” → creates fear
+Suspicious Link	            "MANAGE DELIVERY" link likely redirects to malicious site (hover to check in real email)
+Brand Abuse	             Logo used to appear trustworthy, even though it's from an unverified sender
+Tracking Number  	     Fake number to increase trust, not verifiable without login

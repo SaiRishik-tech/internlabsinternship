@@ -1,0 +1,22 @@
+Phishing Email Analysis Report
+
+Email Details
+- **Subject:** Your package was scheduled for delivery today
+- **Sender:** TrackingUpdates@emails-track.com
+- **Date:** Dec 15, 2020
+
+Red Flags Identified
+1. **Fake Sender Address:** Not from official FedEx domain (e.g., fedex.com)
+2. **Generic Greeting:** "Hi, Demo" instead of personalized name
+3. **Urgent Language:** Threat of package being returned
+4. **Suspicious Link:** "MANAGE DELIVERY" may redirect to malicious page
+5. **Unverified Tracking Number:** Fake-looking number meant to add realism
+6. **Brand Misuse:** FedEx logo used to gain trust
+
+Tools Used
+- Manual inspection
+- Browser preview + link hover check
+- Screenshot analysis
+
+ Conclusion
+This email is a **phishing attempt** leveraging urgency, brand impersonation, and fake delivery status to trick users into clicking a malicious link.
