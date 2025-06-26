@@ -1,0 +1,17 @@
+Scan Name: Localhost Vulnerability Assessment
+Scan Tool: Nessus Essentials
+Target IP: 127.0.0.1
+Scan Date: June 26, 2025
+
+Total Vulnerabilities Found: 13
+ - Critical: 1
+ - High: 2
+ - Medium: 5
+ - Low: 5
+
+Top Issues:
+ - SMBv1 Enabled (Critical)
+ - TLS 1.0 Supported (High)
+
+Action Taken:
+ - Documented top issues and researched mitigation steps.
