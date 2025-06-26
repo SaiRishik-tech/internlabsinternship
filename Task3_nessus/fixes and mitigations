@@ -1,0 +1,14 @@
+1. SMBv1 Fix:
+   - Go to Windows Features and uncheck SMB 1.0/CIFS File Sharing Support.
+   - OR run: Disable-WindowsOptionalFeature -Online -FeatureName smb1protocol
+   - Restart system.
+
+2. TLS 1.0 Fix:
+   - Modify registry to disable TLS 1.0/1.1.
+   - Use group policy to enforce TLS 1.2+.
+   - Restart applications using TLS (IIS, browsers, etc.).
+
+General:
+ - Keep OS and applications up to date.
+ - Apply security patches monthly.
+ - Run regular scans.
