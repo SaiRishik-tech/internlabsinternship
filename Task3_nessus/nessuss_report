@@ -1,0 +1,27 @@
+ Exported scan result from Nessus GUI after scan completes.
+To get it:
+
+Go to My Scans > Click your scan.
+
+Click Report > Export > Select PDF.
+
+Choose Executive Summary or Detailed.
+
+Content it includes:
+
+Scan name, target (localhost)
+
+Total vulnerabilities by severity (Critical, High, Medium…)
+
+Detailed info for each vulnerability:
+
+Plugin name
+
+CVE
+
+Description
+
+Risk factor
+
+Fix recommendation
+
