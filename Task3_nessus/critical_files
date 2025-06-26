@@ -1,0 +1,11 @@
+1. Vulnerability: SMBv1 Enabled
+   Severity: Critical
+   Description: Outdated file-sharing protocol with known RCE exploits.
+   Risk: Allows remote code execution (WannaCry ransomware).
+   CVE: CVE-2017-0144
+
+2. Vulnerability: TLS 1.0/1.1 Enabled
+   Severity: High
+   Description: Weak encryption protocols still supported.
+   Risk: Susceptible to MITM and downgrade attacks.
+   CVE: Multiple (TLS protocol flaws)
